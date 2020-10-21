@@ -1,0 +1,35 @@
+body{
+	background-color: #F9FAF4;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	.container {
+		width: 90%;
+		box-shadow: 1px 10px 10px #9b9b90;
+		display: flex;
+		flex-direction: column;
+		border: 1px solid grey;
+		border-radius: 5px;
+	}
+}
+.top-logo{
+	background-color: #ccc;
+	width:15%;
+	text-align: center;
+	padding:5px;
+	border-radius: 3px;
+}
+.top-menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.top-ul-list{
+	display: flex;
+	width: 410px;
+	justify-content: space-around;
+	text-decoration: none;
+	list-style: none;
+}
+
